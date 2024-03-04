@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+}
+
+.container1 {
+    text-align: center;
+    background-color: rgb(22, 19, 19);
+    padding-bottom: 40px;
+    padding-top: 15px;
+}
+
+.container2 {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.title {
+    color: azure;
+    text-align: center;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-size: 60px;
+    font-style: normal;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.title-text {
+    color: yellow;
+    text-align: center;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-size: 35px;
+    font-style: normal;
+}
+
+.img2 {
+    height: 250px;
+}
+
+.img-profile {
+    border-radius: 50%;
+}
+
+.text {
+    color: black;
+    text-align: center;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-size: 30px;
+    font-style: normal;
+}
+
+.text-small {
+    color: black;
+    text-align: center;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 18px;
+    font-style: normal;
+    width: 45%;
+    margin: auto;
+}
+
+.skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    margin: auto;
+    row-gap: 2rem;
+    column-gap: 2rem;
+}
+
+.title-skills {
+    color: azure;
+    text-align: center;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-size: 20px;
+    font-style: normal;
+}
+
+
+.text-skills {
+    color: yellow;
+    text-align: center;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 15px;
+    font-style: normal;
+    width: auto;
+    margin: auto;
+}
+
+.button {
+    margin-top: 30px;
+    background-color: green;
+    color: white;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 15px;
+}
+
+.footer-link {
+    color: azure;
+    margin: 20px;
+    text-decoration: none;
+}
+
+.footer-text {
+    color: azure;
+    text-align: start;
+    margin-left: 5px;
+}
+
+
+@media (max-width: 850px) {
+    .skills {
+        display: block;
+        width: 50%;
+    }
+
+    .skills-img {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    .skills {
+        display: block;
+        width: 80%;
+    }
+
+    .skills-img {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+    }
+}
